@@ -17,6 +17,7 @@ PulseAudio, the Linux kernel, or headset firmware.
 ## Status
 
 - Patch revision: `bose24` / community release candidate `0.1.0`
+- Release: [`v0.1.0-rc1`](https://github.com/vincent71711/libreelec-bluetooth-audio-stability/releases/tag/v0.1.0-rc1)
 - Last validated: 2026-08-09
 - Hardware: Raspberry Pi 5 Model B Rev 1.0
 - OS: LibreELEC 12.2.1 (`RPi5.aarch64`)
@@ -62,8 +63,10 @@ before starting discovery, but an intentional scan can still interrupt audio.
 
 ## Installation
 
-Use the tested add-on ZIP or apply the source patch. Full backup, installation,
-verification, and rollback commands are in [INSTALL.md](INSTALL.md).
+Use the tested add-on ZIP from the
+[`v0.1.0-rc1` release](https://github.com/vincent71711/libreelec-bluetooth-audio-stability/releases/tag/v0.1.0-rc1)
+or apply the source patch. Full backup, installation, verification, and rollback
+commands are in [INSTALL.md](INSTALL.md).
 Published artifact hashes are recorded in [SHA256SUMS](SHA256SUMS).
 
 ## Scope and limitations

@@ -26,6 +26,7 @@
 
 ## Artifact
 
+- Release: https://github.com/vincent71711/libreelec-bluetooth-audio-stability/releases/tag/v0.1.0-rc1
 - File: `service.libreelec.settings-12.2.1-bose24.zip`
 - SHA-256:
   `7b1ba0876704e37eb14a915720e5bc70d21afc0ddabbdfe5a6856373f85d2c84`
