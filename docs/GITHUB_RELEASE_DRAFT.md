@@ -1,4 +1,4 @@
-# GitHub release draft
+# GitHub release record
 
 ## Tag
 
@@ -42,13 +42,10 @@ Bluetooth list/footer navigation remains intact in RC2.
 - SHA-256:
   `2a74779c8e0c2683751edcf57de84c6f87293d23d733e3a385a1ca5c719a765e`
 
-## Publication sequence
+## Publication result
 
-1. The community repository and tag `v0.1.0-rc1` are already published and
-   superseded.
-2. Review the rendered README and links.
-3. Create a GitHub Release using tag `v0.1.0-rc2`.
-4. Paste the release body above.
-5. Upload the exact ZIP from `/srv/dev/libreelec/release-artifacts/`.
-6. Confirm the published asset hash matches `SHA256SUMS`.
-7. Review `docs/ISSUE_UPDATE_DRAFT.md` before posting any public issue update.
+- `v0.1.0-rc2` is published as a prerelease with the verified `bose25` ZIP.
+- The published asset hash matches `SHA256SUMS`.
+- `v0.1.0-rc1` remains available for traceability and is visibly marked
+  superseded.
+- Review `docs/ISSUE_UPDATE_DRAFT.md` before posting any public issue update.

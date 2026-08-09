@@ -1,4 +1,8 @@
-# Upstream preparation
+# Upstream submission
+
+Draft pull request:
+
+- https://github.com/LibreELEC/service.libreelec.settings/pull/369
 
 ## Likely owner
 
@@ -13,10 +17,10 @@ be represented as a general BlueZ or Bose firmware fix:
 
 - https://github.com/bluez/bluez/issues/1266
 
-## Proposed contribution split
+## Contribution split
 
-The community patch contains several logically separable changes. Upstream
-review will likely be easier as multiple commits or pull requests:
+The submitted branch contains logically separable changes organized for
+upstream review:
 
 1. Stop automatic discovery while connected audio exists; add explicit timed
    scan and UI focus behavior.
@@ -41,12 +45,14 @@ Raw btsnoop, btmon, journal, and PulseAudio traces remain private because they
 contain hardware identifiers. Prepare sanitized excerpts only when an upstream
 maintainer requests specific evidence.
 
-## Before opening an upstream PR
+## Current review state
 
-- Rebase the branch onto current upstream master.
-- Re-run Python compilation and style checks.
-- Decide whether to submit discovery suppression alone first.
-- Replace local `boseNN` packaging identifiers with normal upstream versioning.
-- Remove project-specific release wording from the source commit.
-- Obtain user review of the final public branch and PR text.
-- Link this community project as test evidence, clearly marked unofficial.
+- Draft PR #369 targets current upstream `master` from the public contribution
+  branch.
+- Python compilation, XML parsing, patch application, and live Pi 5 validation
+  passed.
+- The source branch contains no local `boseNN` packaging identifier or custom
+  splash artwork.
+- The fourth commit restores ordinary settings-list separator skipping after a
+  live-tested RC1 focus regression while preserving Bluetooth footer behavior.
+- This community project is linked as unofficial test evidence.

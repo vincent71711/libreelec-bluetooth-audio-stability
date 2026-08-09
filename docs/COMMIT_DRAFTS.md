@@ -1,4 +1,4 @@
-# Commit drafts
+# Published commit structure
 
 ## Community repository
 
@@ -11,7 +11,7 @@ evidence, release notes, upstream preparation, and the source diff. Keep raw
 traces and local branding out of the public repository.
 ```
 
-## Source branch
+## Upstream source branch
 
 ```text
 bluetooth: stabilize connected audio devices
@@ -28,3 +28,10 @@ optional low-frequency watchdog that defers recovery during active playback.
 Validated on LibreELEC 12.2.1/Raspberry Pi 5 with Bose QC Ultra and SteelSeries
 Arctis Nova Pro Wireless.
 ```
+
+The contribution branch is split into four reviewable commits:
+
+1. Settings list/footer navigation support.
+2. Bluetooth connection lifecycle and recovery.
+3. Services toggle for continuous recovery.
+4. Restoration of upstream separator skipping for immediate right-pane focus.
