@@ -7,7 +7,7 @@ These instructions install the patched LibreELEC Settings add-on as a writable
 
 - LibreELEC 12.2.1 on Raspberry Pi 5
 - SSH enabled
-- The release file `service.libreelec.settings-12.2.1-bose24.zip`
+- The release file `service.libreelec.settings-12.2.1-bose25.zip`
 - A current backup
 
 Replace `<LIBREELEC_IP>` in the examples with the target's address.
@@ -16,8 +16,8 @@ Replace `<LIBREELEC_IP>` in the examples with the target's address.
 
 ### 1. Download the patch
 
-Download `service.libreelec.settings-12.2.1-bose24.zip` from the
-[`v0.1.0-rc1` release](https://github.com/vincent71711/libreelec-bluetooth-audio-stability/releases/tag/v0.1.0-rc1).
+Download `service.libreelec.settings-12.2.1-bose25.zip` from the
+[`v0.1.0-rc2` release](https://github.com/vincent71711/libreelec-bluetooth-audio-stability/releases/tag/v0.1.0-rc2).
 Leave the file in your normal Windows **Downloads** folder.
 
 ### 2. Find the LibreELEC address
@@ -33,13 +33,13 @@ to your Downloads folder and confirm that the ZIP is present:
 
 ```powershell
 cd "$env:USERPROFILE\Downloads"
-Get-Item .\service.libreelec.settings-12.2.1-bose24.zip
+Get-Item .\service.libreelec.settings-12.2.1-bose25.zip
 ```
 
 ### 4. Copy the ZIP and connect
 
 ```powershell
-scp .\service.libreelec.settings-12.2.1-bose24.zip `
+scp .\service.libreelec.settings-12.2.1-bose25.zip `
   root@<LIBREELEC_IP>:/storage/
 ssh root@<LIBREELEC_IP>
 ```
@@ -61,9 +61,9 @@ mkdir -p /storage/bluetooth-audio-patch/backups
 systemctl stop kodi
 if [ -d /storage/.kodi/addons/service.libreelec.settings ]; then
   cp -a /storage/.kodi/addons/service.libreelec.settings \
-    /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24
+    /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose25
 fi
-unzip -oq /storage/service.libreelec.settings-12.2.1-bose24.zip \
+unzip -oq /storage/service.libreelec.settings-12.2.1-bose25.zip \
   -d /storage/.kodi/addons
 systemctl start kodi
 ```
@@ -83,7 +83,7 @@ bluetoothctl show | grep 'Discovering:'
 
 Expected results:
 
-- add-on version `12.2.1-bose24`;
+- add-on version `12.2.1-bose25`;
 - a fresh connected audio sink logs the initial monitor;
 - after 90 seconds, the default-on low-frequency watchdog logs its start;
 - discovery is `no` while audio is connected unless the user explicitly confirms
@@ -106,10 +106,10 @@ The following keeps the patched copy rather than deleting it:
 ```sh
 systemctl stop kodi
 mv /storage/.kodi/addons/service.libreelec.settings \
-  /storage/bluetooth-audio-patch/service.libreelec.settings-bose24-disabled
-if [ -d /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24 ]; then
+  /storage/bluetooth-audio-patch/service.libreelec.settings-bose25-disabled
+if [ -d /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose25 ]; then
   cp -a \
-    /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24 \
+    /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose25 \
     /storage/.kodi/addons/service.libreelec.settings
 fi
 systemctl start kodi
@@ -130,7 +130,7 @@ git clone https://github.com/LibreELEC/service.libreelec.settings.git
 cd service.libreelec.settings
 git checkout 9cf5f9868c48878a31ee9f97d290af889dd1c879
 git apply ../patches/0001-bluetooth-stabilize-audio-connections.patch
-make addon ADDON_VERSION=12.2.1-bose24
+make addon ADDON_VERSION=12.2.1-bose25
 ```
 
 The Makefile requires `zip`. The resulting archive is placed under `build/`.

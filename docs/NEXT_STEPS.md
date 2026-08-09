@@ -2,7 +2,7 @@
 
 ## Completed locally
 
-- Source implementation and live `bose24` deployment.
+- Source implementation and live `bose25` deployment.
 - Contribution-ready source commit `fbdc958` on local branch
   `fix/pause-discovery-while-connected`.
 - Mandatory startup recovery validation.
@@ -14,7 +14,12 @@
 - Public project repository and `v0.1.0-rc1` Git tag published at
   https://github.com/vincent71711/libreelec-bluetooth-audio-stability.
 - Pre-release published with the verified add-on ZIP; the public download is a
-  valid archive, embeds version `12.2.1-bose24`, and matches `SHA256SUMS`.
+  valid archive, embeds version `12.2.1-bose24`, and matches its retained
+  `SHA256SUMS` entry. RC1 is superseded by RC2 because of the initial-focus
+  regression.
+- Corrected `v0.1.0-rc2` source and `12.2.1-bose25` artifact prepared after
+  live validation of immediate right-pane focus and preserved Bluetooth footer
+  navigation.
 - Public README, installation, rollback, testing, compatibility, changelog,
   release notes, GitHub release draft, and upstream plan.
 - Private raw traces retained outside the public bundle.

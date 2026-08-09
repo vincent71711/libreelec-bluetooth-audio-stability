@@ -2,11 +2,11 @@
 
 ## Tag
 
-`v0.1.0-rc1`
+`v0.1.0-rc2`
 
 ## Title
 
-`v0.1.0-rc1 — Raspberry Pi 5 Bluetooth audio stability patch`
+`v0.1.0-rc2 — Raspberry Pi 5 Bluetooth audio stability patch`
 
 ## Release body
 
@@ -32,17 +32,22 @@ PulseAudio, Bose, or SteelSeries.
 
 Read `INSTALL.md`, `TESTING.md`, and `compatibility.md` before installing.
 
+RC2 supersedes RC1 and restores immediate visible focus when entering ordinary
+settings panes. RC1 could initially focus a non-selectable section separator;
+Bluetooth list/footer navigation remains intact in RC2.
+
 ## Release asset
 
-- `service.libreelec.settings-12.2.1-bose24.zip`
+- `service.libreelec.settings-12.2.1-bose25.zip`
 - SHA-256:
-  `7b1ba0876704e37eb14a915720e5bc70d21afc0ddabbdfe5a6856373f85d2c84`
+  `2a74779c8e0c2683751edcf57de84c6f87293d23d733e3a385a1ca5c719a765e`
 
 ## Publication sequence
 
-1. The community repository and tag `v0.1.0-rc1` are already published.
+1. The community repository and tag `v0.1.0-rc1` are already published and
+   superseded.
 2. Review the rendered README and links.
-3. Create a GitHub Release using the existing tag `v0.1.0-rc1`.
+3. Create a GitHub Release using tag `v0.1.0-rc2`.
 4. Paste the release body above.
 5. Upload the exact ZIP from `/srv/dev/libreelec/release-artifacts/`.
 6. Confirm the published asset hash matches `SHA256SUMS`.

@@ -1,4 +1,4 @@
-# 0.1.0-rc1 release notes
+# 0.1.0-rc2 release notes
 
 This release candidate is an unofficial LibreELEC 12.2.1 Raspberry Pi 5 patch
 for Bluetooth A2DP instability, initially diagnosed with Bose QC Ultra
@@ -31,6 +31,11 @@ The release candidate completed clean power-on, power-off, manual reconnect,
 Kodi restart, full Pi reboot, paused/stopped playback, and second-headset tests.
 One captured cold-start fault was automatically detected and recovered without
 disconnecting the underlying BlueZ link.
+
+RC2 restores upstream separator-skipping behavior in ordinary settings lists.
+RC1 could transfer focus to a non-selectable section separator when entering a
+right-hand settings pane, leaving no visible highlight until the next Up or
+Down action. Bluetooth footer navigation remains unchanged.
 
 See [compatibility.md](compatibility.md), [TESTING.md](TESTING.md), and
 [INSTALL.md](INSTALL.md) before installation.

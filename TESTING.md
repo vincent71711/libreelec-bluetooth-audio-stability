@@ -75,6 +75,9 @@ testing.
 
 ## Regression tests completed
 
+- Entering System, Services, Network, and other ordinary settings panes selects
+  and highlights the first actionable row immediately; separator rows remain
+  non-selectable. Bluetooth footer navigation continues to pass.
 - Pairing a previously forgotten SteelSeries headset, including a transient
   passkey prompt.
 - Connected-device display using late BlueZ properties and Audio Sink UUID.

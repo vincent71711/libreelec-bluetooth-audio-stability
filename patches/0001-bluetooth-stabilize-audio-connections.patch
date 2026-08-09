@@ -830,7 +830,7 @@ index e3378eb..866aec7 100644
      def do_wizard(self):
          oe.winOeMain.set_wizard_title(oe._(32311))
 diff --git a/resources/lib/oeWindows.py b/resources/lib/oeWindows.py
-index e5a7351..bb3b627 100644
+index e5a7351..79cc39c 100644
 --- a/resources/lib/oeWindows.py
 +++ b/resources/lib/oeWindows.py
 @@ -47,17 +47,20 @@ class mainWindow(xbmcgui.WindowXMLDialog):
@@ -879,7 +879,7 @@ index e5a7351..bb3b627 100644
          button.setVisible(True)
          log.log('exit_function', log.DEBUG)
  
-@@ -179,37 +189,21 @@ class mainWindow(xbmcgui.WindowXMLDialog):
+@@ -179,6 +189,15 @@ class mainWindow(xbmcgui.WindowXMLDialog):
          try:
              focusId = self.getFocusId()
              actionId = int(action.getId())
@@ -895,37 +895,6 @@ index e5a7351..bb3b627 100644
              if focusId == 2222:
                  if actionId == 61453:
                      return
-             if actionId in oe.CANCEL:
-                 self.visible = False
-                 self.close()
--            if focusId == self.guiList:
--                curPos = self.getControl(focusId).getSelectedPosition()
--                listSize = self.getControl(focusId).size()
--                newPos = curPos
--                nextItem = self.getControl(focusId).getListItem(newPos)
--                if (curPos != self.lastGuiList or nextItem.getProperty('typ') == 'separator') and actionId in [
--                    2,
--                    3,
--                    4,
--                    ]:
--                    while nextItem.getProperty('typ') == 'separator':
--                        if actionId == 2:
--                            newPos = newPos + 1
--                        if actionId == 3:
--                            newPos = newPos - 1
--                        if actionId == 4:
--                            newPos = newPos + 1
--                        if newPos <= 0:
--                            newPos = listSize - 1
--                        if newPos >= listSize:
--                            newPos = 0
--                        nextItem = self.getControl(focusId).getListItem(newPos)
--                    self.lastGuiList = newPos
--                    self.getControl(focusId).selectItem(newPos)
--                    self.setProperty('InfoText', nextItem.getProperty('InfoText'))
-             if focusId == self.guiMenList:
-                 self.setFocusId(focusId)
-         except Exception:
 diff --git a/resources/skins/Default/1080i/service-LibreELEC-Settings-mainWindow.xml b/resources/skins/Default/1080i/service-LibreELEC-Settings-mainWindow.xml
 index 55b69c5..3f6cb2c 100644
 --- a/resources/skins/Default/1080i/service-LibreELEC-Settings-mainWindow.xml

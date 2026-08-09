@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-rc2 — 2026-08-09
+
+- Restore immediate visible focus when entering ordinary settings lists.
+- Preserve the Bluetooth list/footer navigation introduced in RC1.
+- Supersede RC1 because its initial right-pane focus could land on a
+  non-selectable section separator.
+
 ## 0.1.0-rc1 — 2026-08-09
 
 - Suppress continuous Bluetooth discovery while connected audio exists.

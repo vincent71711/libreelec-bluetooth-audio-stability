@@ -31,13 +31,14 @@ This series:
 - provides a default-on, user-toggleable low-frequency watchdog after the
   mandatory startup recovery window.
 
-The contribution is organized as three reviewable commits whose combined tree
-is byte-for-byte identical to the tested community build:
+The contribution is organized as four reviewable commits:
 
 1. Settings list/footer navigation support.
 2. Bluetooth discovery, reconnect, manual reset, startup recovery, and watchdog
    backend.
 3. Services toggle for continuous recovery.
+4. Restore upstream separator skipping for immediate visible focus in ordinary
+   settings panes while retaining Bluetooth footer navigation.
 
 ### Evidence
 
