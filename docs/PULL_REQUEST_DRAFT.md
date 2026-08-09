@@ -19,9 +19,15 @@ page opens. On the tested Raspberry Pi 5 this interferes with a connected A2DP
 stream. Bose QC Ultra is especially sensitive: audio degrades immediately and
 longer discovery can trigger a headset reboot/reconnect loop.
 
+Normal discovery behavior is preserved when no Bluetooth audio sink is
+connected: opening the Bluetooth page still starts the standard automatic
+discovery cycle. Discovery is suppressed only after an audio sink is connected;
+the explicit scan action remains available when the user intentionally wants to
+search for another device.
+
 This series:
 
-- suppresses automatic discovery while connected audio exists;
+- suppresses automatic discovery only while connected audio exists;
 - provides an explicit, time-limited manual scan action;
 - warns before scanning with active Bluetooth audio;
 - recognizes audio sinks by BlueZ icon or standard Audio Sink UUID;
@@ -72,6 +78,10 @@ Controlled A/B/A testing changed only discovery state. Playback was stable with
 discovery off, degraded immediately when discovery started, and recovered when
 discovery stopped in runs where the headset did not reboot. The Bluetooth link
 remained connected during the shorter trials.
+
+With no audio sink connected, opening the Bluetooth page continued to start
+automatic discovery normally. After an audio sink connected, discovery stopped
+and transient results faded from the list as intended.
 
 A separate intermittent startup delay was reproduced on Bose and SteelSeries.
 Cycling only the PulseAudio A2DP card profile cleared it while BlueZ remained
