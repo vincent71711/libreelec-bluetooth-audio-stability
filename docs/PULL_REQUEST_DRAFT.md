@@ -37,8 +37,9 @@ The contribution is organized as four reviewable commits:
 2. Bluetooth discovery, reconnect, manual reset, startup recovery, and watchdog
    backend.
 3. Services toggle for continuous recovery.
-4. Restore upstream separator skipping for immediate visible focus in ordinary
-   settings panes while retaining Bluetooth footer navigation.
+4. Fix an initial-focus regression introduced by the footer-navigation work:
+   restore upstream separator skipping in ordinary settings panes while
+   retaining the new Bluetooth footer navigation.
 
 ### Evidence
 

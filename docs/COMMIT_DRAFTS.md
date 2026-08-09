@@ -34,4 +34,5 @@ The contribution branch is split into four reviewable commits:
 1. Settings list/footer navigation support.
 2. Bluetooth connection lifecycle and recovery.
 3. Services toggle for continuous recovery.
-4. Restoration of upstream separator skipping for immediate right-pane focus.
+4. Fix for an initial-focus regression introduced by footer navigation,
+   restoring upstream separator skipping without removing the Bluetooth footer.
