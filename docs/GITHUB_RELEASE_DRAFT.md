@@ -40,11 +40,10 @@ Read `INSTALL.md`, `TESTING.md`, and `compatibility.md` before installing.
 
 ## Publication sequence
 
-1. Push the staged community repository to the user-owned GitHub project.
+1. The community repository and tag `v0.1.0-rc1` are already published.
 2. Review the rendered README and links.
-3. Create tag/release `v0.1.0-rc1` from that commit.
+3. Create a GitHub Release using the existing tag `v0.1.0-rc1`.
 4. Paste the release body above.
 5. Upload the exact ZIP from `/srv/dev/libreelec/release-artifacts/`.
 6. Confirm the published asset hash matches `SHA256SUMS`.
-7. Replace `<PROJECT_URL>` in `docs/ISSUE_UPDATE_DRAFT.md` before posting any
-   public issue update.
+7. Review `docs/ISSUE_UPDATE_DRAFT.md` before posting any public issue update.

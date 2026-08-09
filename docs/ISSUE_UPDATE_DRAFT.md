@@ -25,7 +25,7 @@ Validated environment:
 This is not yet merged or supported upstream. Patch, build/apply instructions,
 test results, compatibility notes, and known caveats are available here:
 
-`<PROJECT_URL>`
+https://github.com/vincent71711/libreelec-bluetooth-audio-stability
 
 Additional hardware/version testing would be welcome. In particular, please
 report the LibreELEC version, board/controller, headset model, codec, whether
