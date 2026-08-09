@@ -8,6 +8,12 @@
 
 ### Summary
 
+The observed failure is not limited to the Bluetooth page. After boot, powering
+on Bose QC Ultra from the Kodi home screen could connect normally or enter four
+or five headset reboot/reconnect cycles before becoming usable, without opening
+Bluetooth settings. A successful BlueZ connection could also initially have no
+audio or a degraded/delayed audio path.
+
 LibreELEC Settings currently starts Bluetooth discovery whenever the Bluetooth
 page opens. On the tested Raspberry Pi 5 this interferes with a connected A2DP
 stream. Bose QC Ultra is especially sensitive: audio degrades immediately and
@@ -34,6 +40,11 @@ is byte-for-byte identical to the tested community build:
 3. Services toggle for continuous recovery.
 
 ### Evidence
+
+Cold-start and power-cycle testing reproduced the home-screen auto-connect
+failure independently of visiting Bluetooth settings. Outcomes ranged from an
+immediate clean connection to four or five headset reboot/reconnect cycles
+before stable audio.
 
 Controlled A/B/A testing changed only discovery state. Playback was stable with
 discovery off, degraded immediately when discovery started, and recovered when

@@ -7,9 +7,11 @@
 
 This project fixes Bluetooth audio instability observed on a Raspberry Pi 5
 running LibreELEC 12.2.1. The original failure was especially severe with Bose
-QC Ultra headphones: opening LibreELEC's Bluetooth page continuously requested
-device discovery, degrading A2DP audio and sometimes triggering headset firmware
-reboot loops.
+QC Ultra headphones. After boot, powering on the headset from the Kodi home
+screen could connect normally or enter four or five headset reboot/reconnect
+cycles before finally becoming usable, without ever opening the Bluetooth page.
+Opening that page exposed an additional reproducible trigger: continuous device
+discovery degraded A2DP audio and could also trigger a headset reboot loop.
 
 The tested fix belongs in `service.libreelec.settings`. It does not modify BlueZ,
 PulseAudio, the Linux kernel, or headset firmware.

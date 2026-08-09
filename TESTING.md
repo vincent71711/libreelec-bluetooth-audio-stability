@@ -1,5 +1,18 @@
 # Testing and evidence
 
+## Initial symptom scope
+
+The pre-patch problem was not limited to opening LibreELEC's Bluetooth page.
+After a fresh Pi boot, Bose QC Ultra could be powered on from the Kodi home
+screen and either connect normally or reboot/reconnect four or five times before
+becoming usable. This path required no visit to Bluetooth settings. Successful
+BlueZ connection could also initially produce no audio, degraded audio, or a
+delayed audio path.
+
+The discovery A/B/A test below established one direct and avoidable trigger.
+The reconnect and PulseAudio recovery portions of the patch address the separate
+startup and connection-state symptoms observed outside the Bluetooth page.
+
 ## Root-cause result
 
 The LibreELEC Bluetooth page requested continuous BlueZ discovery. Controlled
