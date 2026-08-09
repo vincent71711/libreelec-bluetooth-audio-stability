@@ -45,8 +45,9 @@ The contribution is organized as five reviewable commits:
 
 Commit 4 is a required follow-up whenever commit 1 is used; it does not depend
 on the optional Services toggle in commit 3. Maintainers may prefer to squash
-commit 4 into commit 1 before merge so the intermediate regression is absent
-from final history.
+commit 4 into commit 1 and commit 5 into commit 2 before merging, eliminating
+the intermediate regression and wording correction from the final history. I
+have left the commits separate to preserve the development and testing history.
 
 ### Interface
 
