@@ -6,6 +6,18 @@
 
 ## Suggested body
 
+### Motivation
+
+I use Bose QC Ultra headphones with LibreELEC and experienced repeated audio
+degradation, failed connections, and headset reboot loops. I could not find an
+existing fix, so I investigated the behavior on my Raspberry Pi 5, isolated
+Bluetooth discovery and audio-path startup as reproducible triggers, and
+documented the resulting patch and testing for upstream review.
+
+This is my first contribution to LibreELEC. The implementation is intentionally
+presented as reviewable commits, with the full test record and installable
+community build linked below.
+
 ### Summary
 
 The observed failure is not limited to the Bluetooth page. After boot, powering
