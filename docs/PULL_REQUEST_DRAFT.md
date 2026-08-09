@@ -29,7 +29,7 @@ This series:
 
 - suppresses automatic discovery only while connected audio exists;
 - provides an explicit, time-limited manual scan action;
-- warns before scanning with active Bluetooth audio;
+- warns before manual scanning only when a Bluetooth audio sink is connected;
 - recognizes audio sinks by BlueZ icon or standard Audio Sink UUID;
 - filters inactive unpaired scan objects after discovery;
 - adds ordered paired-audio reconnect fallback;
