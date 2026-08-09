@@ -82,8 +82,6 @@ Published artifact hashes are recorded in [SHA256SUMS](SHA256SUMS).
   90-second recovery remains active when the toggle is Off.
 - LibreELEC updates may replace the `/storage` add-on override. Revalidate after
   system updates.
-- The custom FROSLABS/Bose splash image is a personal branding experiment and is
-  intentionally excluded from this distributable patch and upstream proposal.
 
 ## Upstream status
 

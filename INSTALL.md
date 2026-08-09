@@ -12,14 +12,45 @@ These instructions install the patched LibreELEC Settings add-on as a writable
 
 Replace `<LIBREELEC_IP>` in the examples with the target's address.
 
-## Copy from Windows PowerShell
+## Install from Windows PowerShell
+
+### 1. Download the patch
+
+Download `service.libreelec.settings-12.2.1-bose24.zip` from the
+[`v0.1.0-rc1` release](https://github.com/vincent71711/libreelec-bluetooth-audio-stability/releases/tag/v0.1.0-rc1).
+Leave the file in your normal Windows **Downloads** folder.
+
+### 2. Find the LibreELEC address
+
+In Kodi, open **System information → Network** and note the IP address. The
+examples below use `<LIBREELEC_IP>` as a placeholder; replace it with that
+address, for example `192.168.1.50`.
+
+### 3. Open PowerShell
+
+Open the Start menu, type **PowerShell**, and launch Windows PowerShell. Change
+to your Downloads folder and confirm that the ZIP is present:
 
 ```powershell
-scp .\service.libreelec.settings-12.2.1-bose24.zip root@<LIBREELEC_IP>:/storage/
+cd "$env:USERPROFILE\Downloads"
+Get-Item .\service.libreelec.settings-12.2.1-bose24.zip
+```
+
+### 4. Copy the ZIP and connect
+
+```powershell
+scp .\service.libreelec.settings-12.2.1-bose24.zip `
+  root@<LIBREELEC_IP>:/storage/
 ssh root@<LIBREELEC_IP>
 ```
 
-Use `-i C:\path\to\key` with both commands when authenticating with an SSH key.
+The first connection may ask whether to trust the host fingerprint; type `yes`.
+Enter the LibreELEC SSH password when prompted. If you normally authenticate
+with an SSH key, add `-i C:\path\to\private-key` to both commands.
+
+If Windows reports that `scp` or `ssh` is not recognized, install **OpenSSH
+Client** from **Windows Settings → System → Optional features**, reopen
+PowerShell, and retry.
 
 ## Back up and install on LibreELEC
 
@@ -28,16 +59,17 @@ Run these commands from the LibreELEC SSH shell:
 ```sh
 mkdir -p /storage/bluetooth-audio-patch/backups
 systemctl stop kodi
-cp -a /storage/.kodi/addons/service.libreelec.settings \
-  /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24
+if [ -d /storage/.kodi/addons/service.libreelec.settings ]; then
+  cp -a /storage/.kodi/addons/service.libreelec.settings \
+    /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24
+fi
 unzip -oq /storage/service.libreelec.settings-12.2.1-bose24.zip \
   -d /storage/.kodi/addons
 systemctl start kodi
 ```
 
-If the add-on override does not already exist, first copy the stock add-on into
-`/storage/.kodi/addons/service.libreelec.settings` from the matching LibreELEC
-image/build. Do not mix add-on bases from different LibreELEC releases.
+The release ZIP contains the complete add-on. If no writable override existed,
+the command creates one; LibreELEC's read-only stock copy remains untouched.
 
 ## Verify
 
@@ -75,13 +107,17 @@ The following keeps the patched copy rather than deleting it:
 systemctl stop kodi
 mv /storage/.kodi/addons/service.libreelec.settings \
   /storage/bluetooth-audio-patch/service.libreelec.settings-bose24-disabled
-cp -a \
-  /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24 \
-  /storage/.kodi/addons/service.libreelec.settings
+if [ -d /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24 ]; then
+  cp -a \
+    /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24 \
+    /storage/.kodi/addons/service.libreelec.settings
+fi
 systemctl start kodi
 ```
 
-If paths differ, stop and resolve the exact backup path before moving anything.
+If there was no earlier writable override, Kodi automatically falls back to the
+stock read-only add-on after the patched directory is moved aside. If paths
+differ, stop and resolve the exact backup path before moving anything.
 
 ## Build from source
 

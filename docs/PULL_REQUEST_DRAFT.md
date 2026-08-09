@@ -25,6 +25,14 @@ This series:
 - provides a default-on, user-toggleable low-frequency watchdog after the
   mandatory startup recovery window.
 
+The contribution is organized as three reviewable commits whose combined tree
+is byte-for-byte identical to the tested community build:
+
+1. Settings list/footer navigation support.
+2. Bluetooth discovery, reconnect, manual reset, startup recovery, and watchdog
+   backend.
+3. Services toggle for continuous recovery.
+
 ### Evidence
 
 Controlled A/B/A testing changed only discovery state. Playback was stable with
@@ -48,6 +56,11 @@ samples before acting.
 - Bose QC Ultra
 - SteelSeries Arctis Nova Pro Wireless
 - NVIDIA Shield Remote remained connected
+
+The full test record, compatibility limits, installable release, and source
+patch are published at:
+
+https://github.com/vincent71711/libreelec-bluetooth-audio-stability
 
 Validated pairing, manual connect/disconnect, headset power cycles, Kodi restart,
 full Pi reboot with headset on/off, last-used fallback, music playback,
