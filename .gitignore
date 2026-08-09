@@ -1,0 +1,7 @@
+*.btsnoop
+*.pcap
+*.log
+*.tsv
+*.zip
+artifacts/
+private-traces/

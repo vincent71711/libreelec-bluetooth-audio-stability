@@ -1,0 +1,100 @@
+# Installation and rollback
+
+These instructions install the patched LibreELEC Settings add-on as a writable
+`/storage` override. They do not replace the read-only system image.
+
+## Requirements
+
+- LibreELEC 12.2.1 on Raspberry Pi 5
+- SSH enabled
+- The release file `service.libreelec.settings-12.2.1-bose24.zip`
+- A current backup
+
+Replace `<LIBREELEC_IP>` in the examples with the target's address.
+
+## Copy from Windows PowerShell
+
+```powershell
+scp .\service.libreelec.settings-12.2.1-bose24.zip root@<LIBREELEC_IP>:/storage/
+ssh root@<LIBREELEC_IP>
+```
+
+Use `-i C:\path\to\key` with both commands when authenticating with an SSH key.
+
+## Back up and install on LibreELEC
+
+Run these commands from the LibreELEC SSH shell:
+
+```sh
+mkdir -p /storage/bluetooth-audio-patch/backups
+systemctl stop kodi
+cp -a /storage/.kodi/addons/service.libreelec.settings \
+  /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24
+unzip -oq /storage/service.libreelec.settings-12.2.1-bose24.zip \
+  -d /storage/.kodi/addons
+systemctl start kodi
+```
+
+If the add-on override does not already exist, first copy the stock add-on into
+`/storage/.kodi/addons/service.libreelec.settings` from the matching LibreELEC
+image/build. Do not mix add-on bases from different LibreELEC releases.
+
+## Verify
+
+```sh
+grep -n 'version=' \
+  /storage/.kodi/addons/service.libreelec.settings/addon.xml | head
+grep -E 'SETTINGS:.*(Started initial|watchdog|Unhealthy|Resetting)' \
+  /storage/.kodi/temp/kodi.log | tail -n 30
+bluetoothctl show | grep 'Discovering:'
+```
+
+Expected results:
+
+- add-on version `12.2.1-bose24`;
+- a fresh connected audio sink logs the initial monitor;
+- after 90 seconds, the default-on low-frequency watchdog logs its start;
+- discovery is `no` while audio is connected unless the user explicitly confirms
+  **Scan for devices**.
+
+In Kodi, verify:
+
+1. **LibreELEC Settings → Services → Bluetooth → Continuous audio auto-recovery**
+   exists and defaults to On.
+2. Its footer explains that the first 90-second recovery remains mandatory.
+3. **LibreELEC Settings → Bluetooth → Scan for devices** displays a warning when
+   an audio device is connected.
+4. Cancel leaves discovery off.
+5. A connected audio device's context menu contains **Reset audio connection**.
+
+## Roll back
+
+The following keeps the patched copy rather than deleting it:
+
+```sh
+systemctl stop kodi
+mv /storage/.kodi/addons/service.libreelec.settings \
+  /storage/bluetooth-audio-patch/service.libreelec.settings-bose24-disabled
+cp -a \
+  /storage/bluetooth-audio-patch/backups/service.libreelec.settings-before-bose24 \
+  /storage/.kodi/addons/service.libreelec.settings
+systemctl start kodi
+```
+
+If paths differ, stop and resolve the exact backup path before moving anything.
+
+## Build from source
+
+The source patch targets base commit
+`9cf5f9868c48878a31ee9f97d290af889dd1c879` of
+`LibreELEC/service.libreelec.settings`.
+
+```sh
+git clone https://github.com/LibreELEC/service.libreelec.settings.git
+cd service.libreelec.settings
+git checkout 9cf5f9868c48878a31ee9f97d290af889dd1c879
+git apply ../patches/0001-bluetooth-stabilize-audio-connections.patch
+make addon ADDON_VERSION=12.2.1-bose24
+```
+
+The Makefile requires `zip`. The resulting archive is placed under `build/`.
