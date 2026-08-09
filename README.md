@@ -14,6 +14,14 @@ reboot loops.
 The tested fix belongs in `service.libreelec.settings`. It does not modify BlueZ,
 PulseAudio, the Linux kernel, or headset firmware.
 
+## Why this exists
+
+I use Bose QC Ultra headphones with LibreELEC and repeatedly ran into degraded
+audio, missing audio, disconnects, and headset reboot loops. I could not find an
+existing fix online, and I had the time to investigate the behavior, test the
+failure modes, and turn what fixed my own setup into a documented community
+patch that others can try.
+
 ## Status
 
 - Patch revision: `bose24` / community release candidate `0.1.0`
@@ -85,11 +93,11 @@ Published artifact hashes are recorded in [SHA256SUMS](SHA256SUMS).
 
 ## Upstream status
 
-No upstream submission has been opened yet. The root cause and patch are in the
-LibreELEC settings integration, so the likely upstream owner is
-[`LibreELEC/service.libreelec.settings`](https://github.com/LibreELEC/service.libreelec.settings).
-See [docs/UPSTREAM.md](docs/UPSTREAM.md) for the proposed contribution split and
-review notes.
+The patch is now available to LibreELEC maintainers as
+[draft pull request #369](https://github.com/LibreELEC/service.libreelec.settings/pull/369).
+It remains an unofficial community patch unless and until the maintainers review
+and merge it. See [docs/UPSTREAM.md](docs/UPSTREAM.md) for the contribution split
+and review notes.
 
 ## License
 
