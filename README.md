@@ -64,6 +64,28 @@ and [TESTING.md](TESTING.md) for the evidence and test matrix.
   read-only check every 10 seconds, uses a 10-minute recovery cooldown, and
   allows at most three watchdog resets per connection.
 
+## Interface
+
+The Bluetooth page exposes scanning as an explicit footer action while audio is
+connected. Device names and hardware addresses are obscured in this screenshot.
+
+![Scan for devices footer action](docs/images/scan-for-devices.png)
+
+Selecting it first presents an audio-interruption warning, with **Cancel** as
+the default action.
+
+![Bluetooth scan warning](docs/images/scan-warning.png)
+
+Connected audio devices provide a manual profile recovery action without
+requiring the device to be forgotten and paired again.
+
+![Reset audio connection action](docs/images/reset-audio-connection.png)
+
+The optional steady-state watchdog is enabled by default under
+**Services → Bluetooth**.
+
+![Continuous audio auto-recovery toggle](docs/images/continuous-audio-auto-recovery.png)
+
 ## Important manual-scan warning
 
 Manual Bluetooth discovery can degrade or disconnect active Bluetooth audio.

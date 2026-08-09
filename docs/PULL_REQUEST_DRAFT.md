@@ -31,7 +31,7 @@ This series:
 - provides a default-on, user-toggleable low-frequency watchdog after the
   mandatory startup recovery window.
 
-The contribution is organized as four reviewable commits:
+The contribution is organized as five reviewable commits:
 
 1. Settings list/footer navigation support.
 2. Bluetooth discovery, reconnect, manual reset, startup recovery, and watchdog
@@ -40,11 +40,25 @@ The contribution is organized as four reviewable commits:
 4. Fix an initial-focus regression introduced by the footer-navigation work:
    restore upstream separator skipping in ordinary settings panes while
    retaining the new Bluetooth footer navigation.
+5. Shorten the scan-warning question so it remains visible without waiting for
+   the dialog text to scroll.
 
 Commit 4 is a required follow-up whenever commit 1 is used; it does not depend
 on the optional Services toggle in commit 3. Maintainers may prefer to squash
 commit 4 into commit 1 before merge so the intermediate regression is absent
 from final history.
+
+### Interface
+
+Device names and hardware addresses are obscured in the Bluetooth-page image.
+
+| Explicit scan action | Scan warning |
+| --- | --- |
+| ![Scan for devices](https://raw.githubusercontent.com/vincent71711/libreelec-bluetooth-audio-stability/main/docs/images/scan-for-devices.png) | ![Warning before scanning](https://raw.githubusercontent.com/vincent71711/libreelec-bluetooth-audio-stability/main/docs/images/scan-warning.png) |
+
+| Manual audio recovery | Optional continuous recovery |
+| --- | --- |
+| ![Reset audio connection](https://raw.githubusercontent.com/vincent71711/libreelec-bluetooth-audio-stability/main/docs/images/reset-audio-connection.png) | ![Continuous audio auto-recovery](https://raw.githubusercontent.com/vincent71711/libreelec-bluetooth-audio-stability/main/docs/images/continuous-audio-auto-recovery.png) |
 
 ### Evidence
 

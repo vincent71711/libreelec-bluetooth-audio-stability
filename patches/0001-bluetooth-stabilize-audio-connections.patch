@@ -1,5 +1,5 @@
 diff --git a/resources/language/resource.language.en_gb/strings.po b/resources/language/resource.language.en_gb/strings.po
-index 0345486..cf03f7d 100644
+index 0345486..a677893 100644
 --- a/resources/language/resource.language.en_gb/strings.po
 +++ b/resources/language/resource.language.en_gb/strings.po
 @@ -296,6 +296,10 @@ msgctxt "#773"
@@ -27,7 +27,7 @@ index 0345486..cf03f7d 100644
 +msgstr ""
 +
 +msgctxt "#32423"
-+msgid "Scanning may degrade or disconnect active Bluetooth audio.[CR][CR]Bose headphones are especially sensitive and may restart, but other Bluetooth audio devices can also be affected. Continue scanning?"
++msgid "Scanning may degrade or disconnect active Bluetooth audio.[CR][CR]Bose headphones are especially sensitive and may restart, but other Bluetooth audio devices can also be affected. Continue?"
 +msgstr ""
 +
 +msgctxt "#32424"
