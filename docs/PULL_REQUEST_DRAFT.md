@@ -41,6 +41,11 @@ The contribution is organized as four reviewable commits:
    restore upstream separator skipping in ordinary settings panes while
    retaining the new Bluetooth footer navigation.
 
+Commit 4 is a required follow-up whenever commit 1 is used; it does not depend
+on the optional Services toggle in commit 3. Maintainers may prefer to squash
+commit 4 into commit 1 before merge so the intermediate regression is absent
+from final history.
+
 ### Evidence
 
 Cold-start and power-cycle testing reproduced the home-screen auto-connect
