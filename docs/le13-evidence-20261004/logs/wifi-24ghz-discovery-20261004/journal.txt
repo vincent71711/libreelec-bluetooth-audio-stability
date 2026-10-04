@@ -1,0 +1,1 @@
+Oct 04 01:50:42 LibreELEC bluetoothd[706]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to DEVICE-02: Software caused connection abort (103)

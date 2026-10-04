@@ -1,0 +1,242 @@
+Oct 04 01:42:09 LibreELEC iwd[427]: event: state, old: connected, new: disconnecting
+Oct 04 01:42:09 LibreELEC iwd[427]: event: state, old: disconnecting, new: disconnected
+Oct 04 01:42:09 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is disconnect
+Oct 04 01:42:09 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:42:09 LibreELEC connmand[590]: wlan0 {del} address [IP-redacted]/16 label wlan0
+Oct 04 01:42:52 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:42:52 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:42:52 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:42:52 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:42:52 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:42:52 LibreELEC iwd[427]: event: connect-info, ssid: TEST-WIFI-24GHZ, bss: DEVICE-04, signal: -38, load: 28/255
+Oct 04 01:42:52 LibreELEC iwd[427]: event: state, old: disconnected, new: connecting
+Oct 04 01:42:52 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is configuration
+Oct 04 01:42:52 LibreELEC connmand[590]: ipconfig state 3 ipconfig method 1
+Oct 04 01:42:52 LibreELEC iwd[427]: event: state, old: connecting, new: connected
+Oct 04 01:43:02 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is ready
+Oct 04 01:43:02 LibreELEC connmand[590]: Interface wlan0 [ wifi ] is the default
+Oct 04 01:43:02 LibreELEC connmand[590]: Setting domainname to [local-domain-redacted]
+Oct 04 01:43:02 LibreELEC connmand[590]: wlan0 {add} address [IP-redacted]/16 label wlan0 family 2
+Oct 04 01:43:02 LibreELEC connmand[590]: Skipping server [IP-redacted] KoD code RATE
+Oct 04 01:43:02 LibreELEC connmand[590]: Interface wlan0 [ wifi ] IPv4 online check to http://ipv4.connman.net/online/status.html succeeded
+Oct 04 01:43:02 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is online
+Oct 04 01:43:02 LibreELEC connmand[590]: ntp: adjust (slew): -0.010437 sec
+Oct 04 01:43:38 LibreELEC iwd[427]: event: state, old: connected, new: disconnecting
+Oct 04 01:43:38 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is disconnect
+Oct 04 01:43:38 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:43:38 LibreELEC iwd[427]: event: state, old: disconnecting, new: disconnected
+Oct 04 01:43:39 LibreELEC connmand[590]: wlan0 {del} address [IP-redacted]/16 label wlan0
+Oct 04 01:43:39 LibreELEC connmand[590]: wlan0 {RX} 375797 packets 26880174 bytes
+Oct 04 01:43:39 LibreELEC connmand[590]: wlan0 {TX} 1287099 packets 1943483805 bytes
+Oct 04 01:43:39 LibreELEC connmand[590]: wlan0 {update} flags 4098 <DOWN>
+Oct 04 01:43:39 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:43:39 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Oct 04 01:43:39 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:43:39 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:43:39 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is disconnect
+Oct 04 01:43:39 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:44:14 LibreELEC iwd[427]: event: state, old: disconnected, new: autoconnect_quick
+Oct 04 01:44:14 LibreELEC connmand[590]: wlan0 {RX} 375797 packets 26880174 bytes
+Oct 04 01:44:14 LibreELEC connmand[590]: wlan0 {TX} 1287099 packets 1943483805 bytes
+Oct 04 01:44:14 LibreELEC connmand[590]: wlan0 {update} flags 4099 <UP>
+Oct 04 01:44:14 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:44:14 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Oct 04 01:44:18 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:44:18 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:44:18 LibreELEC iwd[427]: event: connect-info, ssid: TEST-WIFI-5GHZ, bss: DEVICE-03, signal: -49, load: 41/255
+Oct 04 01:44:18 LibreELEC iwd[427]: event: state, old: autoconnect_quick, new: connecting (auto)
+Oct 04 01:44:18 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is configuration
+Oct 04 01:44:18 LibreELEC connmand[590]: ipconfig state 3 ipconfig method 1
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {RX} 375798 packets 26880295 bytes
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {TX} 1287099 packets 1943483805 bytes
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {update} flags 69635 <UP,LOWER_UP>
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 5 <DORMANT>
+Oct 04 01:44:18 LibreELEC iwd[427]: event: state, old: connecting (auto), new: connected
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {RX} 375799 packets 26880490 bytes
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {TX} 1287101 packets 1943484074 bytes
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {update} flags 69699 <UP,RUNNING,LOWER_UP>
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:44:18 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 6 <UP>
+Oct 04 01:44:23 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is ready
+Oct 04 01:44:23 LibreELEC connmand[590]: Interface wlan0 [ wifi ] is the default
+Oct 04 01:44:23 LibreELEC connmand[590]: Setting domainname to [local-domain-redacted]
+Oct 04 01:44:23 LibreELEC connmand[590]: wlan0 {add} address [IP-redacted]/16 label wlan0 family 2
+Oct 04 01:44:23 LibreELEC connmand[590]: Skipping server [IP-redacted] KoD code RATE
+Oct 04 01:44:23 LibreELEC connmand[590]: ntp: adjust (slew): +0.007946 sec
+Oct 04 01:44:23 LibreELEC connmand[590]: Interface wlan0 [ wifi ] IPv4 online check to http://ipv4.connman.net/online/status.html succeeded
+Oct 04 01:44:23 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is online
+Oct 04 01:44:29 LibreELEC iwd[427]: event: state, old: connected, new: disconnecting
+Oct 04 01:44:29 LibreELEC iwd[427]: event: state, old: disconnecting, new: disconnected
+Oct 04 01:44:29 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is disconnect
+Oct 04 01:44:29 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:44:29 LibreELEC connmand[590]: wlan0 {del} address [IP-redacted]/16 label wlan0
+Oct 04 01:44:54 LibreELEC connmand[590]: wlan0 {RX} 375877 packets 26898883 bytes
+Oct 04 01:44:54 LibreELEC connmand[590]: wlan0 {TX} 1287215 packets 1943531683 bytes
+Oct 04 01:44:54 LibreELEC connmand[590]: wlan0 {update} flags 4098 <DOWN>
+Oct 04 01:44:54 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:44:54 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Oct 04 01:44:56 LibreELEC iwd[427]: event: state, old: disconnected, new: autoconnect_quick
+Oct 04 01:44:56 LibreELEC connmand[590]: wlan0 {RX} 375877 packets 26898883 bytes
+Oct 04 01:44:56 LibreELEC connmand[590]: wlan0 {TX} 1287215 packets 1943531683 bytes
+Oct 04 01:44:56 LibreELEC connmand[590]: wlan0 {update} flags 4099 <UP>
+Oct 04 01:44:56 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:44:56 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Oct 04 01:45:00 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:00 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:00 LibreELEC iwd[427]: event: connect-info, ssid: TEST-WIFI-5GHZ, bss: DEVICE-03, signal: -49, load: 28/255
+Oct 04 01:45:00 LibreELEC iwd[427]: event: state, old: autoconnect_quick, new: connecting (auto)
+Oct 04 01:45:00 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is configuration
+Oct 04 01:45:00 LibreELEC connmand[590]: ipconfig state 3 ipconfig method 1
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {RX} 375878 packets 26899004 bytes
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {TX} 1287215 packets 1943531683 bytes
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {update} flags 69635 <UP,LOWER_UP>
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 5 <DORMANT>
+Oct 04 01:45:00 LibreELEC iwd[427]: event: state, old: connecting (auto), new: connected
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {RX} 375879 packets 26899199 bytes
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {TX} 1287217 packets 1943531952 bytes
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {update} flags 69699 <UP,RUNNING,LOWER_UP>
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:45:00 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 6 <UP>
+Oct 04 01:45:05 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is ready
+Oct 04 01:45:05 LibreELEC connmand[590]: Interface wlan0 [ wifi ] is the default
+Oct 04 01:45:05 LibreELEC connmand[590]: Setting domainname to [local-domain-redacted]
+Oct 04 01:45:05 LibreELEC connmand[590]: wlan0 {add} address [IP-redacted]/16 label wlan0 family 2
+Oct 04 01:45:05 LibreELEC connmand[590]: Skipping server [IP-redacted] KoD code RATE
+Oct 04 01:45:05 LibreELEC connmand[590]: ntp: adjust (slew): -0.000820 sec
+Oct 04 01:45:05 LibreELEC connmand[590]: Interface wlan0 [ wifi ] IPv4 online check to http://ipv4.connman.net/online/status.html succeeded
+Oct 04 01:45:05 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is online
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: connected, new: disconnecting
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is disconnect
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:45:26 LibreELEC connmand[590]: wlan0 {del} address [IP-redacted]/16 label wlan0
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] error "connect-failed"
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is failure
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 7 ipconfig method 1
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: disconnecting, new: disconnected
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] error "connect-failed"
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is failure
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 7 ipconfig method 1
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:45:26 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:26 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:26 LibreELEC iwd[427]: event: connect-info, ssid: TEST-WIFI-24GHZ, bss: DEVICE-04, signal: -36, load: 44/255
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: disconnected, new: connecting
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is configuration
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 3 ipconfig method 1
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:45:26 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: connecting, new: disconnecting
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: disconnecting, new: disconnected
+Oct 04 01:45:26 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:26 LibreELEC iwd[427]: event: connect-info, ssid: TEST-WIFI-5GHZ, bss: DEVICE-03, signal: -48, load: 26/255
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: disconnected, new: connecting
+Oct 04 01:45:26 LibreELEC iwd[427]: event: connect-failed, status: 1
+Oct 04 01:45:26 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: connecting, new: disconnected
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: disconnected, new: autoconnect_quick
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: autoconnect_quick, new: autoconnect_full
+Oct 04 01:45:26 LibreELEC iwd[427]: Received error during CMD_TRIGGER_SCAN: Resource temporarily unavailable (11)
+Oct 04 01:45:26 LibreELEC iwd[427]: Received error during CMD_TRIGGER_SCAN: Resource temporarily unavailable (11)
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is failure
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 7 ipconfig method 1
+Oct 04 01:45:26 LibreELEC iwd[427]: event: state, old: autoconnect_full, new: disconnected
+Oct 04 01:45:26 LibreELEC iwd[427]: Unexpected connection related event -- is another supplicant running?
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is configuration
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 3 ipconfig method 1
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] error "invalid-key"
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is failure
+Oct 04 01:45:26 LibreELEC connmand[590]: ipconfig state 7 ipconfig method 1
+Oct 04 01:45:26 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:45:27 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:27 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:27 LibreELEC iwd[427]: event: connect-info, ssid: TEST-WIFI-24GHZ, bss: DEVICE-04, signal: -36, load: 44/255
+Oct 04 01:45:27 LibreELEC iwd[427]: event: state, old: disconnected, new: connecting
+Oct 04 01:45:27 LibreELEC iwd[427]: event: connect-failed, status: 1
+Oct 04 01:45:27 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:27 LibreELEC iwd[427]: event: state, old: connecting, new: disconnected
+Oct 04 01:45:27 LibreELEC iwd[427]: event: state, old: disconnected, new: autoconnect_quick
+Oct 04 01:45:27 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:45:27 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:45:27 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is configuration
+Oct 04 01:45:27 LibreELEC connmand[590]: ipconfig state 3 ipconfig method 1
+Oct 04 01:45:27 LibreELEC connmand[590]: Interface wlan0 [ wifi ] error "invalid-key"
+Oct 04 01:45:27 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is failure
+Oct 04 01:45:27 LibreELEC connmand[590]: ipconfig state 7 ipconfig method 1
+Oct 04 01:45:27 LibreELEC iwd[427]: event: state, old: autoconnect_quick, new: disconnected
+Oct 04 01:45:27 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:45:27 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:45:30 LibreELEC connmand[590]: wlan0 {RX} 375985 packets 26923356 bytes
+Oct 04 01:45:30 LibreELEC connmand[590]: wlan0 {TX} 1287315 packets 1943581583 bytes
+Oct 04 01:45:30 LibreELEC connmand[590]: wlan0 {update} flags 4099 <UP>
+Oct 04 01:45:30 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:45:30 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 2 <DOWN>
+Oct 04 01:45:58 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:45:58 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:45:58 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:58 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:45:58 LibreELEC iwd[427]: event: connect-info, ssid: TEST-WIFI-5GHZ, bss: DEVICE-03, signal: -50, load: 27/255
+Oct 04 01:45:58 LibreELEC iwd[427]: event: state, old: disconnected, new: connecting
+Oct 04 01:45:58 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is configuration
+Oct 04 01:45:58 LibreELEC connmand[590]: ipconfig state 3 ipconfig method 1
+Oct 04 01:45:58 LibreELEC connmand[590]: wlan0 {RX} 375986 packets 26923477 bytes
+Oct 04 01:45:58 LibreELEC connmand[590]: wlan0 {TX} 1287315 packets 1943581583 bytes
+Oct 04 01:45:58 LibreELEC connmand[590]: wlan0 {update} flags 69635 <UP,LOWER_UP>
+Oct 04 01:45:58 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:45:58 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 5 <DORMANT>
+Oct 04 01:46:03 LibreELEC iwd[427]: 4-Way handshake failed for ifindex: 3, reason: 15
+Oct 04 01:46:03 LibreELEC iwd[427]: event: connect-failed, reason: 15
+Oct 04 01:46:03 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:46:03 LibreELEC iwd[427]: event: state, old: connecting, new: disconnected
+Oct 04 01:46:03 LibreELEC iwd[427]: event: state, old: disconnected, new: autoconnect_quick
+Oct 04 01:46:03 LibreELEC connmand[590]: Interface wlan0 [ wifi ] error "invalid-key"
+Oct 04 01:46:03 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is failure
+Oct 04 01:46:03 LibreELEC iwd[427]: event: state, old: autoconnect_quick, new: disconnected
+Oct 04 01:46:03 LibreELEC connmand[590]: ipconfig state 7 ipconfig method 1
+Oct 04 01:46:22 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is failure
+Oct 04 01:46:22 LibreELEC connmand[590]: ipconfig state 7 ipconfig method 1
+Oct 04 01:46:22 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:47:07 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:47:07 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:47:07 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:47:07 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:47:07 LibreELEC iwd[427]: event: connect-info, ssid: TEST-WIFI-24GHZ, bss: DEVICE-04, signal: -33, load: 34/255
+Oct 04 01:47:07 LibreELEC iwd[427]: event: state, old: disconnected, new: connecting
+Oct 04 01:47:07 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is configuration
+Oct 04 01:47:07 LibreELEC connmand[590]: ipconfig state 3 ipconfig method 1
+Oct 04 01:47:07 LibreELEC iwd[427]: event: state, old: connecting, new: connected
+Oct 04 01:47:07 LibreELEC connmand[590]: wlan0 {RX} 375991 packets 26924156 bytes
+Oct 04 01:47:07 LibreELEC connmand[590]: wlan0 {TX} 1287323 packets 1943583566 bytes
+Oct 04 01:47:07 LibreELEC connmand[590]: wlan0 {update} flags 69699 <UP,RUNNING,LOWER_UP>
+Oct 04 01:47:07 LibreELEC connmand[590]: wlan0 {newlink} index 3 address DEVICE-05 mtu 1500
+Oct 04 01:47:07 LibreELEC connmand[590]: wlan0 {newlink} index 3 operstate 6 <UP>
+Oct 04 01:47:11 LibreELEC iwd[427]: event: state, old: connected, new: disconnecting
+Oct 04 01:47:11 LibreELEC iwd[427]: event: state, old: disconnecting, new: disconnected
+Oct 04 01:47:11 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is disconnect
+Oct 04 01:47:11 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is idle
+Oct 04 01:47:11 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is association
+Oct 04 01:47:11 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:47:11 LibreELEC iwd[427]: event: connect-info, FullMAC driver: brcmfmac using SAE.  Expect EXTERNAL_AUTH
+Oct 04 01:47:11 LibreELEC iwd[427]: event: connect-info, ssid: TEST-WIFI-24GHZ, bss: DEVICE-04, signal: -33, load: 34/255
+Oct 04 01:47:11 LibreELEC iwd[427]: event: state, old: disconnected, new: connecting
+Oct 04 01:47:11 LibreELEC connmand[590]: ipconfig state 2 ipconfig method 1
+Oct 04 01:47:11 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is configuration
+Oct 04 01:47:11 LibreELEC connmand[590]: ipconfig state 3 ipconfig method 1
+Oct 04 01:47:12 LibreELEC iwd[427]: event: state, old: connecting, new: connected
+Oct 04 01:47:21 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is ready
+Oct 04 01:47:21 LibreELEC connmand[590]: Interface wlan0 [ wifi ] is the default
+Oct 04 01:47:21 LibreELEC connmand[590]: Setting domainname to [local-domain-redacted]
+Oct 04 01:47:21 LibreELEC connmand[590]: wlan0 {add} address [IP-redacted]/16 label wlan0 family 2
+Oct 04 01:47:21 LibreELEC connmand[590]: Skipping server [IP-redacted] KoD code RATE
+Oct 04 01:47:21 LibreELEC connmand[590]: ntp: adjust (slew): -0.003076 sec
+Oct 04 01:47:22 LibreELEC connmand[590]: Interface wlan0 [ wifi ] IPv4 online check to http://ipv4.connman.net/online/status.html succeeded
+Oct 04 01:47:22 LibreELEC connmand[590]: Interface wlan0 [ wifi ] state is online

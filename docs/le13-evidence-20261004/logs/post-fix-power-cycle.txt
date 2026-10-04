@@ -1,0 +1,10 @@
+Sun Oct  4 06:07:39 UTC 2026
+	Discovering: no
+7	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+9	7	376	protocol-native.c	float32le 2ch 44100Hz
+2026-10-04 02:04:08.707 T:3341     info <general>: SETTINGS: monitor_audio_connection # Started initial PulseAudio A2DP monitor for /org/bluez/hci0/dev_DEVICE-02
+2026-10-04 02:05:38.988 T:3398     info <general>: SETTINGS: run # Started low-frequency PulseAudio A2DP watchdog for /org/bluez/hci0/dev_DEVICE-02; interval=10 seconds
+2026-10-04 02:06:17.165 T:3350     info <general>: SETTINGS: end_audio_connection # Rearmed PulseAudio A2DP monitor for /org/bluez/hci0/dev_DEVICE-02
+2026-10-04 02:06:29.429 T:3350     info <general>: SETTINGS: monitor_audio_connection # Started initial PulseAudio A2DP monitor for /org/bluez/hci0/dev_DEVICE-02
+2026-10-04 02:06:29.849 T:3754     info <general>: SETTINGS: run # Restored missing A2DP connection for /org/bluez/hci0/dev_DEVICE-02
+User validation after deployment: normal headphone power cycle restored audio as expected, without manual recovery. One successful post-patch power-cycle test.

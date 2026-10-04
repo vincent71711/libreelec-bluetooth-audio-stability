@@ -1,0 +1,1 @@
+Listener report during 2.4 GHz load with discovery off: zero change.

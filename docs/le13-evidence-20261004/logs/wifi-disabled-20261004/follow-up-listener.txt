@@ -1,0 +1,1 @@
+Subsequent user-reported test: Bluetooth discovery off; Wi-Fi off, back on, reconnect, disconnect, reconnect. Zero issues throughout. No dedicated instrumented trace collected for this sequence.

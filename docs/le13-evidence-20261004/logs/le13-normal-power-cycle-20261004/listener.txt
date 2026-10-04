@@ -1,0 +1,2 @@
+During normal headset power cycle, user reports connected announcement but no audio followed by repeated disconnect/reconnect announcements. Initial live checks showed Discovering=no and Kodi on dummy sink. No recovery commands issued during observation.
+At 05:58:41 UTC, after passive trace completed, explicit bluetoothctl connect Bose a2dp-sink succeeded. Running SBC sink 5 appeared and Kodi stream 3 moved to it. Audibility not yet confirmed by listener.

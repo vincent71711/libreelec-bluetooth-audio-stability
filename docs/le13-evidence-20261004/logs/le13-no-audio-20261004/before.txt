@@ -1,0 +1,105 @@
+Sun Oct  4 05:29:49 UTC 2026
+Card #0
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 14
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: off
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, availability unknown)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+Sink #0
+	State: RUNNING
+	Name: auto_null
+	Description: Dummy Output
+	Driver: module-null-sink.c
+	Sample Specification: s16le 2ch 44100Hz
+	Channel Map: front-left,front-right
+	Owner Module: 6
+	Mute: no
+	Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+	        balance 0.00
+	Base Volume: 65536 / 100% / 0.00 dB
+	Monitor Source: auto_null.monitor
+	Latency: 14303 usec, configured 100000 usec
+	Flags: DECIBEL_VOLUME LATENCY SET_FORMATS 
+	Properties:
+		device.description = "Dummy Output"
+		device.class = "abstract"
+		device.icon_name = "audio-card"
+	Formats:
+		pcm
+Sink Input #3
+	Driver: protocol-native.c
+	Owner Module: 0
+	Client: 5
+	Sink: 0
+	Sample Specification: float32le 2ch 44100Hz
+	Channel Map: front-left,front-right
+	Format: pcm, format.sample_format = "\"float32le\""  format.channel_map = "\"front-left,front-right\""  format.channels = "2"  format.rate = "44100"
+	Corked: no
+	Mute: no
+	Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+	        balance 0.00
+	Buffer Latency: 300000 usec
+	Sink Latency: 11217 usec
+	Resample method: copy
+	Properties:
+		media.name = "kodi audio stream"
+		application.name = "KodiSink"
+		native-protocol.peer = "UNIX socket client"
+		native-protocol.version = "35"
+		application.process.id = "943"
+		application.process.user = "root"
+		application.process.host = "LibreELEC"
+		application.process.binary = "kodi.bin"
+		application.language = "C"
+		application.process.machine_id = "912dbb1d16c26e62ce2cb364685d085d"
+		module-stream-restore.id = "sink-input-by-application-name:KodiSink"
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+Oct 04 01:27:38 LibreELEC bluetoothd[706]: profiles/audio/a2dp.c:load_remote_sep() Unable to load LastUsed: rseid 5 not found
+Oct 04 01:28:03 LibreELEC pulseaudio[429]: E: [pulseaudio] bluez5-util.c: Transport Acquire() failed for transport /org/bluez/hci0/dev_DEVICE-02/fd0 (Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.)

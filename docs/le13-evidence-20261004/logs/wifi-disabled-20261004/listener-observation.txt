@@ -1,0 +1,1 @@
+User reports manually disabling Wireless Networks in LibreELEC, repeating Bluetooth discovery during local music playback, and hearing the same severe chopping/degradation, equally bad or possibly worse. No live SSH/transport capture was running during the offline test. Reconnected on 2432 MHz (2.4 GHz, channel 5); collected service journal afterward.

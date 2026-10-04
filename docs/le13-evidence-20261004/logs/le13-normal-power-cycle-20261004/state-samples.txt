@@ -1,0 +1,1906 @@
+2026-10-04T05:57:36.429769+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:57:41.479836+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:57:46.530651+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:57:51.577258+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:57:56.632680+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:01.685988+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:06.736055+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:11.770293+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:16.818197+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:21.865878+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:26.913650+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:31.961505+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:37.015618+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:42.054622+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+4	auto_null	module-null-sink.c	s16le 2ch 44100Hz	RUNNING
+
+3	4	5	protocol-native.c	float32le 2ch 44100Hz
+
+
+2026-10-04T05:58:47.104416+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+
+2026-10-04T05:58:52.141173+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+
+2026-10-04T05:58:57.194471+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+
+2026-10-04T05:59:02.242837+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+
+2026-10-04T05:59:07.292547+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+
+2026-10-04T05:59:12.327683+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+
+2026-10-04T05:59:17.376653+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+
+2026-10-04T05:59:22.412186+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+
+2026-10-04T05:59:27.449288+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+
+2026-10-04T05:59:32.501745+00:00
+Controller DEVICE-01 (public)
+	Manufacturer: 0x0131 (305)
+	Version: 0x09 (9)
+	Name: LibreELEC
+	Alias: LibreELEC
+	Class: 0x000c0000 (786432)
+	Powered: yes
+	PowerState: on
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: yes
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0557
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+	SupportedCapabilities.MaxAdvLen: 0x1f (31)
+	SupportedCapabilities.MaxScnRspLen: 0x1f (31)
+
+Device DEVICE-02 (public)
+	Name: Bose QC Ultra Headphones
+	Alias: Bose QC Ultra Headphones
+	Class: 0x002c0404 (2884612)
+	Icon: audio-headset
+	Paired: yes
+	Bonded: yes
+	Trusted: yes
+	Blocked: no
+	Connected: yes
+	LegacyPairing: no
+	CablePairing: no
+	UUID: Vendor specific           (00000000-deca-fade-deca-deafdecacaff)
+	UUID: Serial Port               (00001101-0000-1000-8000-00805f9b34fb)
+	UUID: Headset                   (00001108-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Advanced Audio Distribu.. (0000110d-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (0000eb10-d102-11e1-9b23-00025b00a5a5)
+	UUID: Qualcomm Technologies I.. (0000fd92-0000-1000-8000-00805f9b34fb)
+	UUID: Google                    (0000fe2c-0000-1000-8000-00805f9b34fb)
+	UUID: Bose Corporation          (0000febe-0000-1000-8000-00805f9b34fb)
+	UUID: Vendor specific           (9b26d8c0-a8ed-440b-95b0-c4714a518bcc)
+	UUID: Vendor specific           (df21fe2c-2515-4fdb-8886-f12c4d67927c)
+	Modalias: bluetooth:v009Ep4066d0167
+
+5	bluez_sink.DEVICE-02.a2dp_sink	module-bluez5-device.c	s16le 2ch 44100Hz	RUNNING
+
+3	5	5	protocol-native.c	float32le 2ch 44100Hz
+
+Card #3
+	Name: bluez_card.DEVICE-02
+	Driver: module-bluez5-device.c
+	Owner Module: 19
+	Properties:
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+		bluetooth.codec = "sbc"
+	Profiles:
+		a2dp_sink: High Fidelity Playback (A2DP Sink) (sinks: 1, sources: 0, priority: 40, available: yes)
+		off: Off (sinks: 0, sources: 0, priority: 0, available: yes)
+	Active Profile: a2dp_sink
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, latency offset: 0 usec, available)
+			Part of profile(s): a2dp_sink
+		headset-input: Headset (type: Headset, priority: 0, latency offset: 0 usec, not available)
+

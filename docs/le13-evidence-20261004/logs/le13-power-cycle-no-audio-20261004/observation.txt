@@ -1,0 +1,1 @@
+User reports missing audio after headphone power cycle and apparent boot loop. At inspection discovery was off, Bose Connected=yes, no PulseAudio card, Kodi routed to dummy sink. One bluetoothctl connect DEVICE-02 a2dp-sink succeeded, created running SBC sink, and Kodi stream automatically moved to it. No full device disconnect, scan, or playback command issued.

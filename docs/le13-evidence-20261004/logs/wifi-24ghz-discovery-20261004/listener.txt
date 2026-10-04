@@ -1,0 +1,2 @@
+Listener reports during 2.4 GHz discovery plus load: so bad that my headphones just rebooted.
+User subsequently reports headphones apparently reconnected but no audio. At 05:54 UTC BlueZ reports Connected: yes, PulseAudio has no cards or Bluetooth sink, and Kodi stream 3 routes to auto_null sink 2. Discovery off. No recovery attempted during this evidence capture.

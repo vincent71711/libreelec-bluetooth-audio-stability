@@ -1,0 +1,554 @@
+Bluetooth monitor ver 5.87
+btmon[3092]: = Note: Linux version 6.18.54 (aarc..   2026-10-04 01:58:08.991081
+btmon[3092]: = Note: Bluetooth subsystem version..   2026-10-04 01:58:08.991084
+= New Index: [truncated-device-id] (Primary,UART,hci0)  [hci0] 2026-10-04 01:58:08.991084
+= Open Index: DEVICE-01               [hci0] 2026-10-04 01:58:08.991085
+= Index Info: D8:3.. (Cypress Semiconductor)  [hci0] 2026-10-04 01:58:08.991085
+bluetoothd[706]: @ MGMT Open: bluetoothd    {0x0001} 2026-10-04 01:58:08.991087
+> HCI Event: Authenticate.. (0x57) plen 2  #1 [hci0] 2026-10-04 01:58:22.888493
+        Handle: 64
+> HCI Event: Connect Req.. (0x04) plen 10  #2 [hci0] 2026-10-04 01:58:29.204379
+        Address: DEVICE-02 (Bose Corporation)
+        Class: 0x2c0404
+          Major class: Audio/Video (headset, speaker, stereo, video, vcr)
+          Minor class: Wearable Headset Device
+          Rendering (Printing, Speaker)
+          Capturing (Scanner, Microphone)
+          Audio (Speaker, Microphone, Headset)
+        Link type: ACL (0x01)
+< HCI Command: Acc.. (0x01|0x0009) plen 7  #3 [hci0] 2026-10-04 01:58:29.204412
+        Address: DEVICE-02 (Bose Corporation)
+        Role: Central (0x00)
+> HCI Event: Command Status (0x0f) plen 4  #4 [hci0] 2026-10-04 01:58:29.204891
+      Accept Connection Request (0x01|0x0009) ncmd 1
+        Status: Success (0x00)
+> HCI Event: Role Change (0x12) plen 8     #5 [hci0] 2026-10-04 01:58:29.364745
+        Status: Success (0x00)
+        Address: DEVICE-02 (Bose Corporation)
+        Role: Central (0x00)
+> HCI Event: Connect Com.. (0x03) plen 11  #6 [hci0] 2026-10-04 01:58:29.395044
+        Status: Success (0x00)
+        Handle: 11
+        Address: DEVICE-02 (Bose Corporation)
+        Link type: ACL (0x01)
+        Encryption: Disabled (0x00)
+< HCI Command: Rea.. (0x01|0x001b) plen 2  #7 [hci0] 2026-10-04 01:58:29.395136
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+btmon[3092]: @ RAW Open: btmon              {0x0002} 2026-10-04 01:58:29.395166
+btmon[3092]: @ RAW Close: btmon             {0x0002} 2026-10-04 01:58:29.395175
+> HCI Event: Command Status (0x0f) plen 4  #8 [hci0] 2026-10-04 01:58:29.395612
+      Read Remote Supported Features (0x01|0x001b) ncmd 1
+        Status: Success (0x00)
+< HCI Command: Wri.. (0x03|0x001a) plen 1  #9 [hci0] 2026-10-04 01:58:29.395629
+        Scan enable: No Scans (0x00)
+> HCI Event: Read Remot.. (0x0b) plen 11  #10 [hci0] 2026-10-04 01:58:29.396066
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Features[0/0][8]:
+        [raw hex payload redacted]
+          3 slot packets
+          5 slot packets
+          Encryption
+          Slot offset
+          Timing accuracy
+          Role switch
+          Hold mode
+          Sniff mode
+          Power control requests
+          Channel quality driven data rate (CQDDR)
+          SCO link
+          HV2 packets
+          HV3 packets
+          u-law log synchronous data
+          A-law log synchronous data
+          CVSD synchronous data
+          Paging parameter negotiation
+          Power control
+          Transparent synchronous data
+          Enhanced Data Rate ACL 2 Mbps mode
+          Enhanced Data Rate ACL 3 Mbps mode
+          Enhanced inquiry scan
+          Interlaced inquiry scan
+          Interlaced page scan
+          RSSI with inquiry results
+          Extended SCO link (EV3 packets)
+          AFH capable peripheral
+          AFH classification peripheral
+          LE Supported (Controller)
+          3-slot Enhanced Data Rate ACL packets
+          5-slot Enhanced Data Rate ACL packets
+          Sniff subrating
+          Pause encryption
+          AFH capable central
+          AFH classification central
+          Enhanced Data Rate eSCO 2 Mbps mode
+          Extended Inquiry Response
+          Simultaneous LE and BR/EDR (Controller)
+          Secure Simple Pairing
+          Encapsulated PDU
+          Non-flushable Packet Boundary Flag
+          Link Supervision Timeout Changed Event
+          Inquiry TX Power Level
+          Enhanced Power Control
+          Extended features
+> HCI Event: Command Com.. (0x0e) plen 4  #11 [hci0] 2026-10-04 01:58:29.396310
+      Write Scan Enable (0x03|0x001a) ncmd 1
+        Status: Success (0x00)
+< HCI Command: Re.. (0x01|0x001c) plen 3  #12 [hci0] 2026-10-04 01:58:29.396320
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Page: 1
+> HCI Event: Command Sta.. (0x0f) plen 4  #13 [hci0] 2026-10-04 01:58:29.397818
+      Read Remote Extended Features (0x01|0x001c) ncmd 1
+        Status: Success (0x00)
+> HCI Event: Read Remot.. (0x23) plen 13  #14 [hci0] 2026-10-04 01:58:29.397927
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Page: 1/2
+        Features[1/0][8]:
+        [raw hex payload redacted]
+          Secure Simple Pairing (Host Support)
+          LE Supported (Host)
+          Secure Connections (Host Support)
+< HCI Command: R.. (0x01|0x0019) plen 10  #15 [hci0] 2026-10-04 01:58:29.397947
+        Address: DEVICE-02 (Bose Corporation)
+        Page scan repetition mode: R2 (0x02)
+        Page scan mode: Mandatory (0x00)
+        Clock offset: 0x0000
+< BR-ACL: Handle 11.. flags 0x00 dlen 10  #16 [hci0] 2026-10-04 01:58:29.397958
+      L2CAP: Information Request (0x0a) ident 1 len 2
+        Type: Extended features supported (0x0002)
+> HCI Event: Max Slots C.. (0x1b) plen 3  #17 [hci0] 2026-10-04 01:58:29.398700
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Max slots: 5
+> HCI Event: Command Sta.. (0x0f) plen 4  #18 [hci0] 2026-10-04 01:58:29.399101
+      Remote Name Request (0x01|0x0019) ncmd 1
+        Status: Success (0x00)
+> HCI Event: Page Scan R.. (0x20) plen 7  #19 [hci0] 2026-10-04 01:58:29.403619
+        Address: DEVICE-02 (Bose Corporation)
+        Page scan repetition mode: R1 (0x01)
+> BR-ACL: Handle 11.. flags 0x02 dlen 16  #20 [hci0] 2026-10-04 01:58:29.422291
+      L2CAP: Information Response (0x0b) ident 1 len 8
+        Type: Extended features supported (0x0002)
+        Result: Success (0x0000)
+        Features: 0x000000a8
+          Enhanced Retransmission Mode
+          FCS Option
+          Fixed Channels
+< BR-ACL: Handle 11.. flags 0x00 dlen 10  #21 [hci0] 2026-10-04 01:58:29.422320
+      L2CAP: Information Request (0x0a) ident 2 len 2
+        Type: Fixed channels supported (0x0003)
+> HCI Event: Number of C.. (0x13) plen 5  #22 [hci0] 2026-10-04 01:58:29.424877
+        Num handles: 1
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Count: 2
+        #16: len 10 (3 Kb/s)
+        Latency: 26 msec (26-26 msec ~26 msec)
+        #21: len 10 (40 Kb/s)
+        Latency: 2 msec (2-26 msec ~14 msec)
+> HCI Event: Remote Na.. (0x07) plen 255  #23 [hci0] 2026-10-04 01:58:29.429715
+        Status: Success (0x00)
+        Address: DEVICE-02 (Bose Corporation)
+        Name: Bose QC Ultra Headphones
+@ MGMT Event: De.. (0x000b) plen 44  {0x0001} [hci0] 2026-10-04 01:58:29.429728
+        BR/EDR Address: DEVICE-02 (Bose Corporation)
+        Flags: 0x00000000
+        Data length: 31
+        Data[31]:
+        [raw hex payload redacted]
+        [raw hex payload redacted]
+        Name (complete): Bose QC Ultra Headphones
+        Class: 0x2c0404
+          Major class: Audio/Video (headset, speaker, stereo, video, vcr)
+          Minor class: Wearable Headset Device
+          Rendering (Printing, Speaker)
+          Capturing (Scanner, Microphone)
+          Audio (Speaker, Microphone, Headset)
+> BR-ACL: Handle 11.. flags 0x02 dlen 12  #24 [hci0] 2026-10-04 01:58:29.499794
+      L2CAP: Connection Request (0x02) ident 1 len 4
+        PSM: 1 (0x0001)
+        Source CID: 843
+< BR-ACL: Handle 11.. flags 0x00 dlen 16  #25 [hci0] 2026-10-04 01:58:29.499829
+      L2CAP: Connection Response (0x03) ident 1 len 8
+        Destination CID: 64
+        Source CID: 843
+        Result: Connection pending (0x0001)
+        Status: No further information available (0x0000)
+< BR-ACL: Handle 11.. flags 0x00 dlen 10  #26 [hci0] 2026-10-04 01:58:29.499834
+      L2CAP: Information Request (0x0a) ident 3 len 2
+        Type: Extended features supported (0x0002)
+> HCI Event: Number of C.. (0x13) plen 5  #27 [hci0] 2026-10-04 01:58:29.503633
+        Num handles: 1
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Count: 2
+        #25: len 16 (42 Kb/s)
+        Latency: 3 msec (2-26 msec ~9 msec)
+        #26: len 10 (26 Kb/s)
+        Latency: 3 msec (2-26 msec ~6 msec)
+> BR-ACL: Handle 11.. flags 0x02 dlen 16  #28 [hci0] 2026-10-04 01:58:29.506052
+      L2CAP: Information Response (0x0b) ident 3 len 8
+        Type: Extended features supported (0x0002)
+        Result: Success (0x0000)
+        Features: 0x000000a8
+          Enhanced Retransmission Mode
+          FCS Option
+          Fixed Channels
+< BR-ACL: Handle 11.. flags 0x00 dlen 10  #29 [hci0] 2026-10-04 01:58:29.506062
+      L2CAP: Information Request (0x0a) ident 4 len 2
+        Type: Fixed channels supported (0x0003)
+> BR-ACL: Handle 11.. flags 0x02 dlen 20  #30 [hci0] 2026-10-04 01:58:29.542347
+      L2CAP: Information Response (0x0b) ident 2 len 12
+        Type: Fixed channels supported (0x0003)
+        Result: Success (0x0000)
+        Channels: 0x0000000000000086
+          L2CAP Signaling (BR/EDR)
+          Connectionless reception
+          Security Manager (BR/EDR)
+> HCI Event: Link Key Re.. (0x17) plen 6  #31 [hci0] 2026-10-04 01:58:29.624892
+        Address: DEVICE-02 (Bose Corporation)
+< HCI Command: L.. (0x01|0x000b) plen 22  #32 [hci0] 2026-10-04 01:58:29.624910
+        Address: DEVICE-02 (Bose Corporation)
+        Link key[16]: [redacted]
+        [raw hex payload redacted]
+> HCI Event: Command Co.. (0x0e) plen 10  #33 [hci0] 2026-10-04 01:58:29.626203
+      Link Key Request Reply (0x01|0x000b) ncmd 1
+        Status: Success (0x00)
+        Address: DEVICE-02 (Bose Corporation)
+> HCI Event: Encryption... (0x08) plen 4  #34 [hci0] 2026-10-04 01:58:29.659503
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Encryption: Enabled with AES-CCM (0x02)
+< HCI Command: Re.. (0x05|0x0008) plen 2  #35 [hci0] 2026-10-04 01:58:29.659522
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+> HCI Event: Command Com.. (0x0e) plen 7  #36 [hci0] 2026-10-04 01:58:29.660007
+      Read Encryption Key Size (0x05|0x0008) ncmd 1
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Key size: 16
+< BR-ACL: Handle 11.. flags 0x00 dlen 16  #37 [hci0] 2026-10-04 01:58:29.660021
+      L2CAP: Connection Response (0x03) ident 1 len 8
+        Destination CID: 64
+        Source CID: 843
+        Result: Connection successful (0x0000)
+        Status: No further information available (0x0000)
+< BR-ACL: Handle 11.. flags 0x00 dlen 23  #38 [hci0] 2026-10-04 01:58:29.660023
+      L2CAP: Configure Request (0x04) ident 5 len 15
+        Destination CID: 843
+        Flags: 0x0000
+        Option: Retransmission and Flow Control (0x04) [mandatory]
+          Mode: Basic (0x00)
+          TX window size: 0
+          Max transmit: 0
+          Retransmission timeout: 0
+          Monitor timeout: 0
+          Maximum PDU size: 0
+> BR-ACL: Handle 11... flags 0x01 dlen 0  #39 [hci0] 2026-10-04 01:58:29.661002
+        unexpected continuation
+> BR-ACL: Handle 11... flags 0x02 dlen 6  #40 [hci0] 2026-10-04 01:58:29.662292
+      BR/EDR SMP: Security Request (0x0b) len 1
+        Authentication requirement: No bonding, No MITM, SC, No Keypresses (0x08)
+< HCI Command: L.. (0x08|0x0019) plen 28  #41 [hci0] 2026-10-04 01:58:29.662301
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Random number: 0x0000000000000000
+        Encrypted diversifier: 0x0000
+        Long term key[16]: [redacted]
+        [raw hex payload redacted]
+> HCI Event: Command Sta.. (0x0f) plen 4  #42 [hci0] 2026-10-04 01:58:29.662827
+      LE Start Encryption (0x08|0x0019) ncmd 1
+        Status: Unknown Connection Identifier (0x02)
+< HCI Command: Re.. (0x01|0x001f) plen 2  #43 [hci0] 2026-10-04 01:58:29.662842
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+> HCI Event: Number of C.. (0x13) plen 5  #44 [hci0] 2026-10-04 01:58:29.663829
+        Num handles: 1
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Count: 2
+        #29: len 10 (0 Kb/s)
+        Latency: 157 msec (2-157 msec ~82 msec)
+        #37: len 16 (42 Kb/s)
+        Latency: 3 msec (2-157 msec ~42 msec)
+> HCI Event: Command Sta.. (0x0f) plen 4  #45 [hci0] 2026-10-04 01:58:29.664117
+      Read Clock Offset (0x01|0x001f) ncmd 1
+        Status: Success (0x00)
+< HCI Command: Di.. (0x01|0x0006) plen 3  #46 [hci0] 2026-10-04 01:58:29.664122
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Reason: Authentication Failure (0x05)
+> HCI Event: Command Sta.. (0x0f) plen 4  #47 [hci0] 2026-10-04 01:58:29.664802
+      Disconnect (0x01|0x0006) ncmd 1
+        Status: Success (0x00)
+> HCI Event: Number of C.. (0x13) plen 5  #48 [hci0] 2026-10-04 01:58:29.742226
+        Num handles: 1
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Count: 1
+        #38: len 23 (2 Kb/s)
+        Latency: 82 msec (2-157 msec ~62 msec)
+> HCI Event: Disconnect... (0x05) plen 4  #49 [hci0] 2026-10-04 01:58:29.742324
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Reason: Connection Terminated By Local Host (0x16)
+@ MGMT Event: Dev.. (0x000c) plen 8  {0x0001} [hci0] 2026-10-04 01:58:29.742329
+        BR/EDR Address: DEVICE-02 (Bose Corporation)
+        Reason: Connection terminated by local host (0x02)
+< HCI Command: Wr.. (0x03|0x001a) plen 1  #50 [hci0] 2026-10-04 01:58:29.770774
+        Scan enable: Page Scan (0x02)
+> HCI Event: Command Com.. (0x0e) plen 4  #51 [hci0] 2026-10-04 01:58:29.771052
+      Write Scan Enable (0x03|0x001a) ncmd 1
+        Status: Success (0x00)
+> HCI Event: Connect Re.. (0x04) plen 10  #52 [hci0] 2026-10-04 01:58:30.479349
+        Address: DEVICE-02 (Bose Corporation)
+        Class: 0x2c0404
+          Major class: Audio/Video (headset, speaker, stereo, video, vcr)
+          Minor class: Wearable Headset Device
+          Rendering (Printing, Speaker)
+          Capturing (Scanner, Microphone)
+          Audio (Speaker, Microphone, Headset)
+        Link type: ACL (0x01)
+< HCI Command: Ac.. (0x01|0x0009) plen 7  #53 [hci0] 2026-10-04 01:58:30.479382
+        Address: DEVICE-02 (Bose Corporation)
+        Role: Central (0x00)
+> HCI Event: Command Sta.. (0x0f) plen 4  #54 [hci0] 2026-10-04 01:58:30.479753
+      Accept Connection Request (0x01|0x0009) ncmd 1
+        Status: Success (0x00)
+> HCI Event: Role Change (0x12) plen 8    #55 [hci0] 2026-10-04 01:58:30.640444
+        Status: Success (0x00)
+        Address: DEVICE-02 (Bose Corporation)
+        Role: Central (0x00)
+> HCI Event: Connect Co.. (0x03) plen 11  #56 [hci0] 2026-10-04 01:58:30.652951
+        Status: Success (0x00)
+        Handle: 11
+        Address: DEVICE-02 (Bose Corporation)
+        Link type: ACL (0x01)
+        Encryption: Disabled (0x00)
+< HCI Command: Re.. (0x01|0x001b) plen 2  #57 [hci0] 2026-10-04 01:58:30.653054
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+btmon[3092]: @ RAW Open: btmon              {0x0002} 2026-10-04 01:58:30.653079
+btmon[3092]: @ RAW Close: btmon             {0x0002} 2026-10-04 01:58:30.653084
+> HCI Event: Command Sta.. (0x0f) plen 4  #58 [hci0] 2026-10-04 01:58:30.653575
+      Read Remote Supported Features (0x01|0x001b) ncmd 1
+        Status: Success (0x00)
+< HCI Command: Wr.. (0x03|0x001a) plen 1  #59 [hci0] 2026-10-04 01:58:30.653586
+        Scan enable: No Scans (0x00)
+> HCI Event: Read Remot.. (0x0b) plen 11  #60 [hci0] 2026-10-04 01:58:30.653823
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Features[0/0][8]:
+        [raw hex payload redacted]
+          3 slot packets
+          5 slot packets
+          Encryption
+          Slot offset
+          Timing accuracy
+          Role switch
+          Hold mode
+          Sniff mode
+          Power control requests
+          Channel quality driven data rate (CQDDR)
+          SCO link
+          HV2 packets
+          HV3 packets
+          u-law log synchronous data
+          A-law log synchronous data
+          CVSD synchronous data
+          Paging parameter negotiation
+          Power control
+          Transparent synchronous data
+          Enhanced Data Rate ACL 2 Mbps mode
+          Enhanced Data Rate ACL 3 Mbps mode
+          Enhanced inquiry scan
+          Interlaced inquiry scan
+          Interlaced page scan
+          RSSI with inquiry results
+          Extended SCO link (EV3 packets)
+          AFH capable peripheral
+          AFH classification peripheral
+          LE Supported (Controller)
+          3-slot Enhanced Data Rate ACL packets
+          5-slot Enhanced Data Rate ACL packets
+          Sniff subrating
+          Pause encryption
+          AFH capable central
+          AFH classification central
+          Enhanced Data Rate eSCO 2 Mbps mode
+          Extended Inquiry Response
+          Simultaneous LE and BR/EDR (Controller)
+          Secure Simple Pairing
+          Encapsulated PDU
+          Non-flushable Packet Boundary Flag
+          Link Supervision Timeout Changed Event
+          Inquiry TX Power Level
+          Enhanced Power Control
+          Extended features
+> HCI Event: Command Com.. (0x0e) plen 4  #61 [hci0] 2026-10-04 01:58:30.654144
+      Write Scan Enable (0x03|0x001a) ncmd 1
+        Status: Success (0x00)
+< HCI Command: Re.. (0x01|0x001c) plen 3  #62 [hci0] 2026-10-04 01:58:30.654156
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Page: 1
+> HCI Event: Command Sta.. (0x0f) plen 4  #63 [hci0] 2026-10-04 01:58:30.655341
+      Read Remote Extended Features (0x01|0x001c) ncmd 1
+        Status: Success (0x00)
+> HCI Event: Read Remot.. (0x23) plen 13  #64 [hci0] 2026-10-04 01:58:30.655447
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Page: 1/2
+        Features[1/0][8]:
+        [raw hex payload redacted]
+          Secure Simple Pairing (Host Support)
+          LE Supported (Host)
+          Secure Connections (Host Support)
+< HCI Command: R.. (0x01|0x0019) plen 10  #65 [hci0] 2026-10-04 01:58:30.655466
+        Address: DEVICE-02 (Bose Corporation)
+        Page scan repetition mode: R2 (0x02)
+        Page scan mode: Mandatory (0x00)
+        Clock offset: 0x0000
+< BR-ACL: Handle 11.. flags 0x00 dlen 10  #66 [hci0] 2026-10-04 01:58:30.655471
+      L2CAP: Information Request (0x0a) ident 1 len 2
+        Type: Extended features supported (0x0002)
+> HCI Event: Max Slots C.. (0x1b) plen 3  #67 [hci0] 2026-10-04 01:58:30.656211
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Max slots: 5
+> HCI Event: Command Sta.. (0x0f) plen 4  #68 [hci0] 2026-10-04 01:58:30.656552
+      Remote Name Request (0x01|0x0019) ncmd 1
+        Status: Success (0x00)
+> HCI Event: Page Scan R.. (0x20) plen 7  #69 [hci0] 2026-10-04 01:58:30.659899
+        Address: DEVICE-02 (Bose Corporation)
+        Page scan repetition mode: R1 (0x01)
+> BR-ACL: Handle 11.. flags 0x02 dlen 16  #70 [hci0] 2026-10-04 01:58:30.678550
+      L2CAP: Information Response (0x0b) ident 1 len 8
+        Type: Extended features supported (0x0002)
+        Result: Success (0x0000)
+        Features: 0x000000a8
+          Enhanced Retransmission Mode
+          FCS Option
+          Fixed Channels
+< BR-ACL: Handle 11.. flags 0x00 dlen 10  #71 [hci0] 2026-10-04 01:58:30.678568
+      L2CAP: Information Request (0x0a) ident 2 len 2
+        Type: Fixed channels supported (0x0003)
+> HCI Event: Number of C.. (0x13) plen 5  #72 [hci0] 2026-10-04 01:58:30.682542
+        Num handles: 1
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Count: 2
+        #66: len 10 (2 Kb/s)
+        Latency: 27 msec (27-27 msec ~27 msec)
+        #71: len 10 (26 Kb/s)
+        Latency: 3 msec (3-27 msec ~15 msec)
+> HCI Event: Link Key Re.. (0x17) plen 6  #73 [hci0] 2026-10-04 01:58:30.685734
+        Address: DEVICE-02 (Bose Corporation)
+< HCI Command: L.. (0x01|0x000b) plen 22  #74 [hci0] 2026-10-04 01:58:30.685749
+        Address: DEVICE-02 (Bose Corporation)
+        Link key[16]: [redacted]
+        [raw hex payload redacted]
+> HCI Event: Command Co.. (0x0e) plen 10  #75 [hci0] 2026-10-04 01:58:30.686955
+      Link Key Request Reply (0x01|0x000b) ncmd 1
+        Status: Success (0x00)
+        Address: DEVICE-02 (Bose Corporation)
+> HCI Event: Remote Na.. (0x07) plen 255  #76 [hci0] 2026-10-04 01:58:30.688464
+        Status: Success (0x00)
+        Address: DEVICE-02 (Bose Corporation)
+        Name: Bose QC Ultra Headphones
+@ MGMT Event: De.. (0x000b) plen 44  {0x0001} [hci0] 2026-10-04 01:58:30.688518
+        BR/EDR Address: DEVICE-02 (Bose Corporation)
+        Flags: 0x00000000
+        Data length: 31
+        Data[31]:
+        [raw hex payload redacted]
+        [raw hex payload redacted]
+        Name (complete): Bose QC Ultra Headphones
+        Class: 0x2c0404
+          Major class: Audio/Video (headset, speaker, stereo, video, vcr)
+          Minor class: Wearable Headset Device
+          Rendering (Printing, Speaker)
+          Capturing (Scanner, Microphone)
+          Audio (Speaker, Microphone, Headset)
+> HCI Event: Encryption... (0x08) plen 4  #77 [hci0] 2026-10-04 01:58:30.725678
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Encryption: Enabled with AES-CCM (0x02)
+< HCI Command: Re.. (0x05|0x0008) plen 2  #78 [hci0] 2026-10-04 01:58:30.725697
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+> HCI Event: Command Com.. (0x0e) plen 7  #79 [hci0] 2026-10-04 01:58:30.726258
+      Read Encryption Key Size (0x05|0x0008) ncmd 1
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Key size: 16
+> BR-ACL: Handle 11... flags 0x01 dlen 0  #80 [hci0] 2026-10-04 01:58:30.727257
+        unexpected continuation
+> BR-ACL: Handle 11.. flags 0x02 dlen 12  #81 [hci0] 2026-10-04 01:58:30.729326
+      L2CAP: Connection Request (0x02) ident 1 len 4
+        PSM: 23 (0x0017)
+        Source CID: 973
+< BR-ACL: Handle 11.. flags 0x00 dlen 16  #82 [hci0] 2026-10-04 01:58:30.729359
+      L2CAP: Connection Response (0x03) ident 1 len 8
+        Destination CID: 64
+        Source CID: 973
+        Result: Connection pending (0x0001)
+        Status: No further information available (0x0000)
+< BR-ACL: Handle 11.. flags 0x00 dlen 10  #83 [hci0] 2026-10-04 01:58:30.729362
+      L2CAP: Information Request (0x0a) ident 3 len 2
+        Type: Extended features supported (0x0002)
+> HCI Event: Number of C.. (0x13) plen 5  #84 [hci0] 2026-10-04 01:58:30.737425
+        Num handles: 1
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Count: 2
+        #82: len 16 (16 Kb/s)
+        Latency: 8 msec (3-27 msec ~11 msec)
+        #83: len 10 (10 Kb/s)
+        Latency: 8 msec (3-27 msec ~9 msec)
+> BR-ACL: Handle 11.. flags 0x02 dlen 16  #85 [hci0] 2026-10-04 01:58:30.738680
+      L2CAP: Information Response (0x0b) ident 3 len 8
+        Type: Extended features supported (0x0002)
+        Result: Success (0x0000)
+        Features: 0x000000a8
+          Enhanced Retransmission Mode
+          FCS Option
+          Fixed Channels
+< BR-ACL: Handle 11.. flags 0x00 dlen 10  #86 [hci0] 2026-10-04 01:58:30.738706
+      L2CAP: Information Request (0x0a) ident 4 len 2
+        Type: Fixed channels supported (0x0003)
+> BR-ACL: Handle 11.. flags 0x02 dlen 20  #87 [hci0] 2026-10-04 01:58:30.841093
+      L2CAP: Information Response (0x0b) ident 2 len 12
+        Type: Fixed channels supported (0x0003)
+        Result: Success (0x0000)
+        Channels: 0x0000000000000086
+          L2CAP Signaling (BR/EDR)
+          Connectionless reception
+          Security Manager (BR/EDR)
+> BR-ACL: Handle 11... flags 0x02 dlen 6  #88 [hci0] 2026-10-04 01:58:30.876017
+      BR/EDR SMP: Security Request (0x0b) len 1
+        Authentication requirement: No bonding, No MITM, SC, No Keypresses (0x08)
+< HCI Command: L.. (0x08|0x0019) plen 28  #89 [hci0] 2026-10-04 01:58:30.876076
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Random number: 0x0000000000000000
+        Encrypted diversifier: 0x0000
+        Long term key[16]: [redacted]
+        [raw hex payload redacted]
+> HCI Event: Command Sta.. (0x0f) plen 4  #90 [hci0] 2026-10-04 01:58:30.876655
+      LE Start Encryption (0x08|0x0019) ncmd 1
+        Status: Unknown Connection Identifier (0x02)
+< HCI Command: Re.. (0x01|0x001f) plen 2  #91 [hci0] 2026-10-04 01:58:30.876670
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+> HCI Event: Command Sta.. (0x0f) plen 4  #92 [hci0] 2026-10-04 01:58:30.877229
+      Read Clock Offset (0x01|0x001f) ncmd 1
+        Status: Success (0x00)
+< HCI Command: Di.. (0x01|0x0006) plen 3  #93 [hci0] 2026-10-04 01:58:30.877237
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Reason: Authentication Failure (0x05)
+> HCI Event: Command Sta.. (0x0f) plen 4  #94 [hci0] 2026-10-04 01:58:30.877631
+      Disconnect (0x01|0x0006) ncmd 1
+        Status: Success (0x00)
+> HCI Event: Number of C.. (0x13) plen 5  #95 [hci0] 2026-10-04 01:58:30.954743
+        Num handles: 1
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Count: 1
+        #86: len 10 (0 Kb/s)
+        Latency: 216 msec (3-216 msec ~112 msec)
+> HCI Event: Disconnect... (0x05) plen 4  #96 [hci0] 2026-10-04 01:58:30.954933
+        Status: Success (0x00)
+        Handle: 11 (BR-ACL) Address: DEVICE-02 (Bose Corporation)
+        Reason: Connection Terminated By Local Host (0x16)
+@ MGMT Event: Dev.. (0x000c) plen 8  {0x0001} [hci0] 2026-10-04 01:58:30.954940
+        BR/EDR Address: DEVICE-02 (Bose Corporation)
+        Reason: Connection terminated by local host (0x02)
+< HCI Command: Wr.. (0x03|0x001a) plen 1  #97 [hci0] 2026-10-04 01:58:30.983834
+        Scan enable: Page Scan (0x02)
+> HCI Event: Command Com.. (0x0e) plen 4  #98 [hci0] 2026-10-04 01:58:30.984139
+      Write Scan Enable (0x03|0x001a) ncmd 1
+        Status: Success (0x00)

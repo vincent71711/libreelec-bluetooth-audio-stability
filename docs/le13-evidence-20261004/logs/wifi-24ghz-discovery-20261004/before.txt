@@ -1,0 +1,46 @@
+2026-10-04T05:50:09.348234+00:00
+Connected to DEVICE-04 (on wlan0)
+	SSID: TEST-WIFI-24GHZ
+	freq: 2432.0
+	RX: 1085618 bytes (9480 packets)
+	TX: 78083164 bytes (51562 packets)
+	signal: -40 dBm
+	rx bitrate: 65.0 MBit/s
+	tx bitrate: 72.2 MBit/s
+	bss flags: short-slot-time
+	dtim period: 3
+	beacon int: 100
+Sink #1
+	State: RUNNING
+	Name: bluez_sink.DEVICE-02.a2dp_sink
+	Description: Bose QC Ultra Headphones
+	Driver: module-bluez5-device.c
+	Sample Specification: s16le 2ch 44100Hz
+	Channel Map: front-left,front-right
+	Owner Module: 15
+	Mute: no
+	Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+	        balance 0.00
+	Base Volume: 65536 / 100% / 0.00 dB
+	Monitor Source: bluez_sink.DEVICE-02.a2dp_sink.monitor
+	Latency: 48529 usec, configured 45317 usec
+	Flags: HARDWARE HW_VOLUME_CTRL DECIBEL_VOLUME LATENCY 
+	Properties:
+		bluetooth.protocol = "a2dp_sink"
+		bluetooth.codec = "sbc"
+		device.description = "Bose QC Ultra Headphones"
+		device.string = "DEVICE-02"
+		device.api = "bluez"
+		device.class = "sound"
+		device.bus = "bluetooth"
+		device.form_factor = "headset"
+		bluez.path = "/org/bluez/hci0/dev_DEVICE-02"
+		bluez.class = "0x2c0404"
+		bluez.alias = "Bose QC Ultra Headphones"
+		device.icon_name = "audio-headset-bluetooth"
+		device.intended_roles = "phone"
+	Ports:
+		headset-output: Headset (type: Headset, priority: 0, available)
+	Active Port: headset-output
+	Formats:
+		pcm

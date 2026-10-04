@@ -1,0 +1,2 @@
+Listener reports: horrible chopping just started during discovery-only test; no iperf load.
+Listener follow-up: awful quality, followed by a recovery to normal after discovery ended.
